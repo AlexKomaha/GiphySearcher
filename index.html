@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiphySearch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Giphy Search</h1>
+
+  <div id="search-bar">
+    <input type="text" name="search" id="search" placeholder="SearchGIFs and stickers">
+    <button onclick="SearchGif">search</button>
+  </div>
+
+<!-- Container for displaying GIF images -->
+  <div id="gif-container">
+  </div>
+
+<!-- Button to load additional results -->
+<button id="load-more" style="display: none;" onclick="loadMore()">Load More</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
